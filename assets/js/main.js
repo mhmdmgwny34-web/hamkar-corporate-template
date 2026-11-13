@@ -35,7 +35,7 @@
   if (form && note) form.addEventListener("submit", event => {
     event.preventDefault();
     const recipient = (form.dataset.recipient || "").trim();
-    if (!recipient || recipient === "your-email@example.com" || !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(recipient)) {
+    if (!recipient || recipient === "your-email@example.com" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(recipient)) {
       note.textContent = "برای فعال‌سازی فرم، مقدار data-recipient را با ایمیل واقعی دریافت‌کننده جایگزین کنید.";
       form.querySelector("[name]")?.focus();
       return;
@@ -43,7 +43,7 @@
     const labels = { name: "نام", email: "ایمیل", phone: "شماره تماس", message: "پیام" };
     const body = [...new FormData(form).entries()]
       .map(([key, value]) => (labels[key] || key) + ": " + String(value).trim())
-      .join("\\n\\n");
+      .join("\n\n");
     note.textContent = "برنامه ایمیل شما باز می‌شود؛ برای ارسال نهایی، پیام را در برنامه ایمیل تأیید کنید.";
     window.location.href = "mailto:" + encodeURIComponent(recipient) +
       "?subject=" + encodeURIComponent("درخواست همکاری از وب‌سایت همکار") +
