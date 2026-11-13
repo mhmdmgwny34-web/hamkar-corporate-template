@@ -48,3 +48,29 @@ footer{background:#0b1b2d;color:#b4c2ce}.foot-main{display:flex;align-items:cent
 /* Customer testimonial portraits */
 .person-avatar{overflow:hidden;flex:0 0 44px;width:44px;height:44px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center}
 .person-avatar img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 35%}
+
+/* Force customer portraits to render as real images on every viewport */
+.testimonials .person .person-avatar{
+  display:block !important;
+  flex:0 0 44px !important;
+  width:44px !important;
+  height:44px !important;
+  min-width:44px;
+  min-height:44px;
+  padding:0;
+  overflow:hidden;
+  border-radius:50%;
+  line-height:0;
+  font-size:0;
+}
+.testimonials .person .person-avatar img{
+  display:block !important;
+  visibility:visible !important;
+  opacity:1 !important;
+  width:44px !important;
+  height:44px !important;
+  min-width:44px;
+  min-height:44px;
+  object-fit:cover;
+  border-radius:50%;
+}
