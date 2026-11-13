@@ -46,12 +46,13 @@
 
 ## فایل‌های محصول
 - index.html\n- blog.html
-- assets/css/style.css
-- assets/js/main.js
-- assets/fonts/vazirmatn-variable.woff2
-- فایل مجوز فونت
-- فایل‌های favicon و آیکون دستگاه‌های اپل
-- README راه‌اندازی و شخصی‌سازی
+- `assets/css/style.css`
+- `assets/js/main.js`
+- `assets/fonts/vazirmatn-variable.woff2`
+- `assets/fonts/OFL.txt` (مجوز فونت)
+- `favicon.svg`، `favicon-96.png` و `apple-touch-icon.png`
+- `README.md` (راهنمای راه‌اندازی و شخصی‌سازی)
+- `sitemap.xml` و `robots.txt`
 
 ## راه‌اندازی
 فایل index.html را در مرورگر باز کنید. برای ویرایش و توسعه، استفاده از افزونه Live Server در Visual Studio Code پیشنهاد می‌شود. متن‌ها، رنگ‌ها، تصاویر و اطلاعات تماس را متناسب با برند خود تغییر دهید.
