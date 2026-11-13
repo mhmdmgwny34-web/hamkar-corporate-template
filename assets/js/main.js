@@ -45,7 +45,7 @@
       .map(([key, value]) => (labels[key] || key) + ": " + String(value).trim())
       .join("\n\n");
     note.textContent = "برنامه ایمیل شما باز می‌شود؛ برای ارسال نهایی، پیام را در برنامه ایمیل تأیید کنید.";
-    window.location.href = "mailto:" + encodeURIComponent(recipient) +
+    window.location.href = "mailto:" + recipient +
       "?subject=" + encodeURIComponent("درخواست همکاری از وب‌سایت همکار") +
       "&body=" + encodeURIComponent(body);
   });
