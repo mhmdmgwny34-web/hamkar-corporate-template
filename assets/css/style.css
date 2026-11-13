@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face{font-family:Vazirmatn;src:url("../fonts/vazirmatn-variable.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
 @charset "UTF-8";
 :root{--navy:#10243a;--ink:#182b3d;--muted:#71808d;--mint:#62d8bd;--green:#2bb99b;--paper:#f5f8f9;--line:#e6ebef}
@@ -14,3 +15,14 @@ footer{background:#0b1b2d;color:#b4c2ce}.foot-main{display:flex;align-items:cent
 @media(max-width:900px){.nav-wrap{gap:16px}nav{gap:17px}.hero-grid{gap:25px}.about-grid{gap:45px}.contact{gap:40px;padding:48px}}
 @media(max-width:720px){.container{width:calc(100% - 34px)}.nav-wrap{height:70px}.menu{display:block;order:3;margin-right:auto;width:40px;height:40px;border:1px solid var(--line);border-radius:8px;background:white;color:var(--navy)}nav{position:absolute;top:70px;right:0;left:0;display:none;flex-direction:column;gap:0;padding:8px 20px 15px;background:white;border-bottom:1px solid var(--line);box-shadow:0 15px 25px #10243a12}nav.open{display:flex}nav a{padding:10px 0;border-bottom:1px solid #f0f3f5}.nav-wrap>.btn{margin-right:auto}.hero{padding-top:60px}.hero-grid{grid-template-columns:1fr;gap:10px}.hero h1{font-size:clamp(42px,11vw,58px)}.hero-copy>p{font-size:13px}.visual{min-height:330px}.dashboard{width:88%;padding:16px}.chart{height:115px}.float-one{top:8px}.float-two{bottom:8px}.trust-row{flex-wrap:wrap;justify-content:center;padding:18px 0;gap:10px 16px;font-size:10px}.section{padding:72px 0}.heading{display:block;margin-bottom:28px}.heading>p{margin-top:12px}.heading h2,.about h2,.contact h2{font-size:31px}.cards,.about-grid,.work-grid,.contact{grid-template-columns:1fr}.cards{gap:12px}.cards article{min-height:0}.about-grid{gap:35px}.about-art{min-height:330px}.orb{width:245px;height:245px}.work-art{height:240px}.contact{gap:25px;padding:32px 22px}.foot-main{flex-wrap:wrap}.foot-main p{order:3;flex-basis:100%;margin:0}.foot-main>div{gap:13px}.foot-bottom{font-size:9px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition-duration:.01ms!important}}
+
+
+/* Photography */
+.about-art{background:#10243a}
+.about-art:before{content:none}
+.about-art .orb{display:none}
+.work-art{position:relative;background:#e8eef0}
+.work-one,.work-two{background:#e8eef0}
+.work-art img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.work-grid article:hover .work-art img{transform:scale(1.035)}
+@media(prefers-reduced-motion:reduce){.work-art img{transition:none}}
