@@ -45,12 +45,18 @@
 - نیاز به وردپرس یا CMS: ندارد
 
 ## فایل‌های محصول
-- index.html\n- blog.html
+- `index.html`
+- `services.html`
+- `about.html`
+- `portfolio.html`
+- `blog.html`
+- `contact.html`
 - `assets/css/style.css`
 - `assets/js/main.js`
 - `assets/fonts/vazirmatn-variable.woff2`
 - `assets/fonts/OFL.txt` (مجوز فونت)
 - `favicon.svg`، `favicon-96.png` و `apple-touch-icon.png`
+- `assets/images/` (تصاویر محلی قالب)
 - `README.md` (راهنمای راه‌اندازی و شخصی‌سازی)
 - `sitemap.xml` و `robots.txt`
 
