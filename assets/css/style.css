@@ -44,3 +44,7 @@ footer{background:#0b1b2d;color:#b4c2ce}.foot-main{display:flex;align-items:cent
 .journal-card:hover .journal-art img{transform:scale(1.045)}
 .journal-art span{position:relative;z-index:1;padding:8px 10px;border-radius:5px;background:rgba(16,36,58,.72);color:white}
 @media(prefers-reduced-motion:reduce){.journal-art img{transition:none}}
+
+/* Customer testimonial portraits */
+.person-avatar{overflow:hidden;flex:0 0 44px;width:44px;height:44px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center}
+.person-avatar img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 35%}
