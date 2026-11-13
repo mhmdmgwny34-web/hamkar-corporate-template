@@ -57,15 +57,6 @@
     filters.forEach(item => { const active = item === filter; item.classList.toggle("is-active", active); item.setAttribute("aria-pressed", String(active)); });
     projects.forEach(project => { project.hidden = category !== "all" && project.dataset.category !== category; });
   }));
-  const lightbox = document.querySelector("#lightbox");
-  if (lightbox && typeof lightbox.showModal === "function") {
-    const lightboxImage = lightbox.querySelector("img");
-    document.querySelectorAll(".image-open").forEach(button => button.addEventListener("click", () => {
-      const image = button.querySelector("img"); lightboxImage.src = image.currentSrc || image.src; lightboxImage.alt = image.alt; lightbox.showModal();
-    }));
-    lightbox.querySelector(".lightbox-close").addEventListener("click", () => lightbox.close());
-    lightbox.addEventListener("click", event => { if (event.target === lightbox) lightbox.close(); });
-  }
   const testimonialCards = [...document.querySelectorAll(".testimonial-card")];
   if (testimonialCards.length) {
     let index = 0; const count = document.querySelector("#testimonial-count");
