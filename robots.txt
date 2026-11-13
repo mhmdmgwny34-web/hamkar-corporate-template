@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mhmdmgwny34-web.github.io/hamkar-corporate-template/sitemap.xml
