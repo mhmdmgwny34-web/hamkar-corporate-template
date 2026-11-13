@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @font-face{font-family:Vazirmatn;src:url("../fonts/vazirmatn-variable.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
-@charset "UTF-8";
 :root{--navy:#10243a;--ink:#182b3d;--muted:#71808d;--mint:#62d8bd;--green:#2bb99b;--paper:#f5f8f9;--line:#e6ebef}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.8;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}.container{width:min(1160px,calc(100% - 48px));margin:auto}.skip{position:absolute;top:-60px;right:15px;background:var(--navy);color:white;padding:10px;z-index:200}.skip:focus{top:10px}
 .header{position:sticky;top:0;z-index:100;background:#ffffffed;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}.nav-wrap{height:80px;display:flex;align-items:center;gap:28px}.brand{display:flex;align-items:center;gap:10px;white-space:nowrap}.brand>b{display:grid;place-items:center;width:39px;height:39px;border-radius:12px 12px 12px 3px;background:var(--mint);color:var(--navy);font-size:23px}.brand strong{font-size:22px;color:var(--navy)}.brand strong span{color:var(--green)}nav{display:flex;gap:32px;margin-right:auto}nav a{font-size:13px;color:#536272;font-weight:600}nav a:hover,footer a:hover{color:var(--green)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:15px;min-height:52px;padding:0 23px;border:1px solid var(--mint);border-radius:8px;background:var(--mint);color:var(--navy);font-size:13px;font-weight:800;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-3px);background:#7be3cc;box-shadow:0 12px 28px #62d8bd38}.btn-small{min-height:42px;padding:0 16px;font-size:12px}.menu{display:none}
@@ -18,8 +17,8 @@ footer{background:#0b1b2d;color:#b4c2ce}.foot-main{display:flex;align-items:cent
 
 
 /* Photography */
-.about-art{background:#10243a}
-.about-art:before{content:none}
+.about-art{background:#10243a url("../images/office.jpg") center/cover no-repeat}
+.about-art:before{position:absolute;inset:0;content:"";background:linear-gradient(135deg,#10243ad9,#10243a55)}
 .about-art .orb{display:none}
 .work-art{position:relative;background:#e8eef0}
 .work-one,.work-two{background:#e8eef0}
