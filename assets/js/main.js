@@ -13,12 +13,19 @@
       button.setAttribute("aria-expanded", "false");
       button.setAttribute("aria-label", "باز کردن منو");
     }));
+    const closeMenu = () => {
+      nav.classList.remove("open");
+      button.setAttribute("aria-expanded", "false");
+      button.setAttribute("aria-label", "باز کردن منو");
+    };
     document.addEventListener("keydown", event => {
-      if (event.key === "Escape") {
-        nav.classList.remove("open");
-        button.setAttribute("aria-expanded", "false");
-        button.setAttribute("aria-label", "باز کردن منو");
+      if (event.key === "Escape" && nav.classList.contains("open")) {
+        closeMenu();
+        button.focus();
       }
+    });
+    document.addEventListener("click", event => {
+      if (nav.classList.contains("open") && !nav.contains(event.target) && !button.contains(event.target)) closeMenu();
     });
   }
   const year = document.querySelector("#year");
