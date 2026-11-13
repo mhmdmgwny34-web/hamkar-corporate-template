@@ -27,6 +27,6 @@
   const note = document.querySelector("#form-note");
   if (form && note) form.addEventListener("submit", event => {
     event.preventDefault();
-    note.textContent = "اطلاعات فرم از نظر مرورگر معتبر است؛ برای ارسال واقعی باید فرم به بک‌اند یا سرویس فرم متصل شود.";
+    note.textContent = "این فرم در نسخه نمایشی به سرویس ارسال پیام متصل نیست؛ برای دریافت پیام‌ها باید آن را به بک‌اند یا سرویس فرم متصل کنید.";
   });
 })();
