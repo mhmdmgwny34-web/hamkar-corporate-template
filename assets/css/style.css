@@ -17,7 +17,7 @@ footer{background:#0b1b2d;color:#b4c2ce}.foot-main{display:flex;align-items:cent
 
 
 /* Photography */
-.about-art{background:#10243a url("../images/office.jpg") center/cover no-repeat}
+.about-art{background:#10243a url("../images/office.svg") center/cover no-repeat}
 .about-art:before{position:absolute;inset:0;content:"";background:linear-gradient(135deg,#10243ad9,#10243a55)}
 .about-art .orb{display:none}
 .work-art{position:relative;background:#e8eef0}
