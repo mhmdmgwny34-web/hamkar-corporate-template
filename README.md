@@ -10,7 +10,7 @@
 - `assets/js/main.js`: منوی موبایل با پشتیبانی صفحه‌کلید، سال پویای فوتر و پیام وضعیت فرم
 - `favicon.svg` و `favicon-96.png`: نشان سایت برای تب مرورگر و نتایج جست‌وجو
 - `apple-touch-icon.png`: آیکون میان‌بر در دستگاه‌های اپل
-- `assets/images/portfolio-digital-workspace.jpg` و `assets/images/portfolio-brand-interior.png`: تصاویر محلی نمونه‌کارها و بخش درباره ما؛ همراه بسته محصول ارائه می‌شوند.
+- `assets/images/portfolio-digital-workspace.jpg` و `assets/images/portfolio-brand-interior.jpg`: تصاویر محلی نمونه‌کارها و بخش درباره ما؛ همراه بسته محصول ارائه می‌شوند.
 
 ## نکات محتوای نمونه
 - نام برند «همکار»، آمار داشبورد، متن‌ها و نمونه‌کارها صرفاً نمایشی هستند و نباید به‌عنوان اطلاعات واقعی منتشر شوند.
@@ -23,7 +23,7 @@
 - فونت Vazirmatn به‌صورت محلی از مسیر `assets/fonts/vazirmatn-variable.woff2` بارگذاری می‌شود؛ بنابراین برای نمایش فونت به Google Fonts وابسته نیست.
 - فایل مجوز فونت در `assets/fonts/OFL.txt` قرار دارد. فونت Vazirmatn تحت مجوز SIL Open Font License 1.1 منتشر شده و همراه قالب بازتوزیع شده است؛ متن مجوز را حفظ کنید.
 - تمام تصاویر/فونت‌ها/دارایی‌های نهایی باید مجوز معتبر داشته باشند.
-- تصاویر محلی با نام‌گذاری متناسب با بخش‌های قالب در `assets/images/` قرار دارند: `hero-modern-building.jpg`، `about-office-interior.png`، `portfolio-digital-workspace.jpg` و `portfolio-brand-interior.png`.
+- تصاویر محلی با نام‌گذاری متناسب با بخش‌های قالب در `assets/images/` قرار دارند: `hero-modern-building.jpg`، `about-office-interior.png`، `portfolio-digital-workspace.jpg` و `portfolio-brand-interior.jpg`.
 
 ## نشان سایت و اطلاعات سئو
 برای سایت favicon برداری و PNG با اندازه ۹۶×۹۶ پیکسل تنظیم شده است. عنوان صفحه، توضیحات متا، Open Graph و کلمات کلیدی مرتبط نیز در بخش `head` قرار دارند. نمایش favicon در نتایج جست‌وجو به تصمیم و زمان‌بندی خزنده موتور جست‌وجو وابسته است و تضمین‌شدنی نیست. گوگل از meta keywords برای رتبه‌بندی استفاده نمی‌کند؛ عنوان، توضیحات و محتوای واقعی صفحه مهم‌ترند.
