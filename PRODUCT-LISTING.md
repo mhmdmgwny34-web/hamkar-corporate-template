@@ -31,7 +31,7 @@
 - بخش نظرات مشتریان با اسلایدر
 - کارت‌های اعضای تیم و پلن‌های تعرفه
 - پرسش‌های متداول با آکاردئون بومی HTML
-- فیلتر نمونه‌کارها و دو تصویرسازی اختصاصی SVG در بخش پروژه‌های منتخب
+- فیلتر نمونه‌کارها و نمایش تصاویر پروژه‌ها در بخش پروژه‌های منتخب
 - بخش مجله و صفحه فهرست مقاله‌ها (blog.html)
 
 ## مشخصات فنی
@@ -55,8 +55,8 @@
 - `assets/js/main.js`
 - `assets/fonts/vazirmatn-variable.woff2`
 - `assets/fonts/OFL.txt` (مجوز فونت)
-- `assets/images/portfolio-digital-experience.svg` (تصویرسازی اختصاصی نمونه‌کار دیجیتال)
-- `assets/images/portfolio-brand-identity.svg` (تصویرسازی اختصاصی هویت برند)
+- `assets/images/portfolio-digital-workspace.jpg` (تصویر پروژه تجربه دیجیتال)
+- `assets/images/portfolio-brand-interior.jpg` (تصویر پروژه هویت برند)
 - `favicon.svg`، `favicon-96.png` و `apple-touch-icon.png`
 - تصویرسازی‌های اختصاصی CSS برای نمونه‌کار، درباره ما، تیم و مجله؛ بدون عکس شخص ثالث
 - `README.md` (راهنمای راه‌اندازی و شخصی‌سازی)
